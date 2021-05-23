@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.corona_virus"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:9:5-75
+15-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:9:22-73
+16
+17    <application
+17-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:10:5-32:19
+18        android:name="io.flutter.app.FlutterApplication"
+18-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:11:9-57
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\omar siddig\.gradle\caches\transforms-2\files-2.1\123cd07809a823db20fbb74232355e70\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="COVID-19"
+22-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:12:9-33
+23        android:usesCleartextTraffic="true" >
+23-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity
+24-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:15:9-26:20
+25            android:name="com.example.corona_virus.MainActivity"
+25-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:16:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:19:13-163
+27            android:hardwareAccelerated="true"
+27-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:20:13-47
+28            android:launchMode="singleTop"
+28-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:17:13-43
+29            android:theme="@style/LaunchTheme"
+29-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:18:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:21:13-55
+31            <intent-filter>
+31-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:22:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:23:17-68
+32-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:24:17-76
+34-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37        <!--
+38             Don't delete the meta-data below.
+39             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+40        -->
+41        <meta-data
+41-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:29:9-31:33
+42            android:name="flutterEmbedding"
+42-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:30:13-44
+43            android:value="2" />
+43-->D:\flutter_projects\covid-19-master\android\app\src\main\AndroidManifest.xml:31:13-30
+44
+45        <activity
+45-->[:url_launcher] D:\flutter_projects\covid-19-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+46            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+46-->[:url_launcher] D:\flutter_projects\covid-19-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+47            android:exported="false"
+47-->[:url_launcher] D:\flutter_projects\covid-19-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+48            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+48-->[:url_launcher] D:\flutter_projects\covid-19-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+49    </application>
+50
+51</manifest>
